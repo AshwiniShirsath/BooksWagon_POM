@@ -26,7 +26,7 @@ public class TestUtil extends TestBase{
 	public void switchToFrame() {
 		driver.switchTo().frame("mainpanel");
 	}
-	public static String TESTDATA_SHEET_PATH = "E:\\BooksWagon_PageObjectModel\\src\\main\\java\\com\\bw\\qa\\testdata\\BooksWagon\\xlsx.java";
+	public static String TESTDATA_SHEET_PATH = "E:\\BooksWagon_PageObjectModel\\src\\main\\java\\com\\bw\\qa\\testdata\\BooksWagon.xlsx";
 	static Workbook book;
 	static Sheet sheet;
 
